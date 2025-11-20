@@ -1,0 +1,9 @@
+angle = 60
+radius = 42
+arc_length = (angle / 360) * (2 * 3.14 * radius)
+perimeter = arc_length
+side = perimeter / 4
+area = side ** 2
+print("Length of arc =", arc_length)
+print("Side of square =", side)
+print("Area of square =", area)
